@@ -2,24 +2,15 @@
 /* CSS Document */
 
 body {
-	font-family:'Helvetica Neue', sans-serif;
+	font-family:'Source Sans Pro', sans-serif;
 	color: black;
 	font-size:16px;
 	font-weight: 400; 
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-	font-family:'Helvetica Neue', sans-serif; font-weight: 400;	
+	font-family:'Source Sans Pro', sans-serif;	
 }
-
-h1, .h1 {
-    font-size: 28px;
-}
-
-h2, .h2 {
-    font-size: 20px;
-}
-
 
 a:hover{
 	text-decoration: none;
@@ -32,66 +23,32 @@ a:hover{
 }
 
 .navbar-default {
-	background-color: #fdb20d;
-	border-color: #fdb20d;	
-	color: #fdb20d;
+	background-color: white;
+	border-color: transparent;	
+	color: black
 }
 .navbar-default .navbar-brand{
-	color:#fdb20d;
+	color:black;
 }
-
 .navbar-brand{
-	padding-left:0px;
-	padding-right:30px;	
+	padding-left:30px;
+	padding-right:0px;	
 }
 .navbar-default .navbar-brand,  .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus,.navbar-default .navbar-nav>li>a , .navbar-default .navbar-brand:hover{
 	color: black;
 }
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>.active>a:focus  {
- 	color: black;
- 	border-bottom: 2px white solid;
-}
-
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-	background-color: transparent;
-	color: #ffffff;
-}
-
-
 .navbar-nav {
-	font-size:16px;
+	font-size:18px;
 	
 }
 .navbar-nav>li>a{
 	padding-bottom:0px;	
 	padding-left:0px;
 	padding-right:0px;
-	margin-right:25px;
+	margin-left:35px;
 }
-
 .navbar-nav>li>a.active , .navbar-nav>li>a:hover {
-	color: white;
-	text-decoration: none;	
-}
-
-a {
-  color: #2458c3;
-  text-decoration: none;
-}
-a:hover,
-a:focus {
-  color: #030984;
-  text-decoration: none;
-}
-
-.sidebar a {
-  color: #2458c3;
-  text-decoration: none;
-}
-.sidebar a:hover,
-a:focus {
-  color: #030984;
-  text-decoration: none;
+	border-bottom:4px #1780C2 solid;	
 }
 
 a.active:hover{
@@ -126,24 +83,24 @@ a.active:hover{
 .header-text h1{
 	font-size:55px;
 	
-	font-weight: 400;
+	font-weight: 600;
 }
 .header-text h3{
 	font-size: 38px;
 	
-	font-weight: 400;
+	font-weight: 600;
 
 }
 .header-text h4{
 	font-size: 18px;
 	
-	font-weight: 400;
+	font-weight: 600;
 }
 .bs-header .container{
 	}
 	
 	#footer{
-	border-top:4px #fdb20d solid;
+	border-top:5px #1780C2 solid;
 	padding-top:10px;
 	padding-bottom:10px;
 		
@@ -193,13 +150,13 @@ a.active:hover{
   }
  
 .bs-header{
-	background-color:#fdb20d;	
+	background-color:#87BBDB;	
 }
 #page_header {
-	background-color:#fdb20d;	
+	background-color:#87BBDB;	
 }
 .navbar-default {
-	background-color:#fdb20d;	
+	background-color:#87BBDB;	
 }
 #footer a.link {
 	float: none;
@@ -267,7 +224,7 @@ a.active:hover{
 	}	
   #content.bs-header {
 	
-	min-height:130px;
+	min-height:140px;
 	}
   .header-logo{
 	  margin-top:8px;	
@@ -316,7 +273,7 @@ a.active:hover{
   }
   #content.bs-header {
 	
-	min-height:130px;
+	min-height:180px;
 }
 
 #side-sponsor {
@@ -372,7 +329,7 @@ a.active:hover{
     width: 978px;
   }
   .header-logo img{
-	height:130px;  
+	height:170px;  
   }
   .header-image-big img{
 	width:980px;
@@ -429,14 +386,14 @@ a.active:hover{
 	  height:80px;*/
   }
 .main h1{
-	font-weight:400;
+	font-weight:600;
 	margin-bottom:0px;	
 	margin-top:0px;
 }
 .main h3{
 	font-size:18px;
 	margin-top:0px;	
-	font-weight:400;
+	font-weight:600;
 	/*letter-spacing:0.02px;*/
 	margin-bottom:20px;
 }
@@ -453,13 +410,4 @@ a.active:hover{
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	background-color: white;
 	color: black;
-}
-
-.navbar {
-   margin-bottom: 0 !important;
-   border-radius: 0px;
-}
-
-.banner {
-	background-color: #fdb20d;
 }
